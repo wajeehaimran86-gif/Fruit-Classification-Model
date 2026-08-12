@@ -1,0 +1,18 @@
+FRUIT CLASSIFIER UI
+
+1) Open this folder in VS Code.
+2) In Terminal run:
+   python -m pip install -r requirements.txt
+3) Start the UI:
+   python -m streamlit run app.py
+
+OR double-click run_ui.bat after installing requirements.
+
+The browser UI lets you upload one image and shows:
+- fruit-focused crop
+- prediction
+- Softmax confidence
+- all class probabilities
+- optional multi-fruit detection
+
+Classes: Apple, Banana, Orange
